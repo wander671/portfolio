@@ -1,82 +1,747 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Perfil</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+  <title>Wander Farias — Desenvolvedor Python & Web</title>
 
-    <!-- Fonte -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <meta
+    name="description"
+    content="Portfólio de Wander Farias, estudante de Análise e Desenvolvimento de Sistemas e desenvolvedor Python e Web."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
 
-    <div class="container">
+  <div class="noise"></div>
 
-        <!-- Banner -->
-        <div class="banner">
-            <img src="Banner.jpg" alt="Banner">
+
+  <!-- =========================
+       NAVEGAÇÃO
+  ========================== -->
+
+  <header class="nav">
+
+    <a href="#" class="nav__brand">
+      WF<span class="nav__brand-dot">.</span>
+    </a>
+
+    <nav
+      class="nav__links"
+      aria-label="Navegação principal"
+    >
+
+      <a href="#sobre">
+        Sobre
+      </a>
+
+      <a href="#habilidades">
+        Habilidades
+      </a>
+
+      <a href="#projetos">
+        Projetos
+      </a>
+
+      <a href="#formacao">
+        Formação
+      </a>
+
+      <a
+        href="#contato"
+        class="nav__cta"
+      >
+        Contato
+      </a>
+
+    </nav>
+
+  </header>
+
+
+
+  <main class="container">
+
+
+    <!-- =========================
+         HERO / SOBRE
+    ========================== -->
+
+    <section
+      class="terminal"
+      id="sobre"
+      aria-label="Apresentação"
+    >
+
+      <div class="terminal__bar">
+
+        <span class="dot dot--red"></span>
+        <span class="dot dot--yellow"></span>
+        <span class="dot dot--green"></span>
+
+        <span class="terminal__path">
+          wander@dev:~
+        </span>
+
+      </div>
+
+
+      <div class="terminal__body">
+
+
+        <!-- FOTO -->
+
+        <img
+          src="foto.jpg"
+          alt="Foto de Wander Farias"
+          class="avatar-img"
+          onerror="this.style.display='none'; document.querySelector('.avatar-fallback').style.display='flex';"
+        >
+
+
+        <div
+          class="avatar-fallback"
+          aria-hidden="true"
+        >
+          WF
         </div>
 
-        <!-- Foto -->
-        <div class="perfil">
-            <img src="Foto.jpg" alt="Minha Foto">
-        </div>
 
-        <!-- Nome -->
-        <h1>Wander Farias</h1>
+        <!-- APRESENTAÇÃO -->
 
-        <p class="usuario">🚀 Sua empresa ainda não tem site? </p>
-
-        <!-- Redes -->
-        <div class="redes">
-            <a href="https://www.instagram.com/wanderfarias.dev/" target="_blank">Instagram</a>
-            <a href="https://www.linkedin.com/in/wander-farias-396066363/" target="_blank">LinkedIn</a>
-        </div>
-
-        <!-- Descrição -->
-        <p class="descricao">
-            Desenvolvedor Web • Estudante ADS
+        <p class="terminal__line">
+          <span class="prompt">$</span> whoami
         </p>
 
-        <!-- Links -->
-        <h2>Links principais</h2>
 
-        <div class="links">
+        <h1 class="terminal__out">
+          Wander Farias
+        </h1>
 
-            <a href="https://instagram.com" target="_blank" class="botao">
-                📸 Instagram
-            </a>
 
-            <a href="https://linkedin.com" target="_blank" class="botao">
-                💼 LinkedIn
-            </a>
+        <p class="terminal__line">
+          <span class="prompt">$</span> cat sobre.txt
+        </p>
+
+
+        <p class="terminal__out terminal__out--muted">
+
+          Desenvolvedor Python &amp; Web
+          <br>
+
+          Estudante de Análise e Desenvolvimento de Sistemas
+
+          <br>
+
+          <span
+            class="typed"
+            id="typed"
+          ></span>
+
+          <span class="cursor">
+            ▌
+          </span>
+
+        </p>
+
+
+        <!-- STATUS -->
+
+        <div class="badges">
+
+          <span class="badge">
+            Desenvolvedor em evolução
+          </span>
+
+          <span class="badge badge--outline">
+            Brasil
+          </span>
 
         </div>
 
-        <!-- Curso ou Projeto -->
-        <h2>Projetos</h2>
+      </div>
 
-        <div class="card">
-            <div>
-                <h3>Meu Portfólio</h3>
-                <p>
-                    Conheça meus projetos de programação e desenvolvimento web.
-                </p>
-            </div>
+    </section>
 
-            <a href="https://github.com/wander671">Acessar</a>
+
+
+    <!-- =========================
+         REDES SOCIAIS
+    ========================== -->
+
+    <nav
+      class="redes"
+      aria-label="Redes sociais"
+    >
+
+      <a
+        href="https://github.com/wander671"
+        target="_blank"
+        rel="noopener"
+        class="rede"
+      >
+
+        <span class="rede__icon">
+          ◆
+        </span>
+
+        GitHub
+
+      </a>
+
+
+      <a
+        href="https://www.linkedin.com/in/wander-farias-396066363/"
+        target="_blank"
+        rel="noopener"
+        class="rede"
+      >
+
+        <span class="rede__icon">
+          ◆
+        </span>
+
+        LinkedIn
+
+      </a>
+
+
+      <a
+        href="https://www.instagram.com/wanderfarias.dev/"
+        target="_blank"
+        rel="noopener"
+        class="rede"
+      >
+
+        <span class="rede__icon">
+          ◆
+        </span>
+
+        Instagram
+
+      </a>
+
+
+      <a
+        href="mailto:wanderfarias72@gmail.com"
+        class="rede"
+        title="Enviar e-mail para Wander Farias"
+      >
+        <span class="rede__icon">
+          ◆
+        </span>
+        wanderfarias72@gmail.com
+      </a>
+
+    </nav>
+
+
+
+    <!-- =========================
+         HABILIDADES
+    ========================== -->
+
+    <section
+      id="habilidades"
+      aria-label="Habilidades técnicas"
+    >
+
+      <h2 class="section-title">
+
+        <span class="section-title__num">
+          ./
+        </span>
+
+        habilidades
+
+      </h2>
+
+
+      <div class="skills">
+
+
+        <span class="skill">
+          Python
+        </span>
+
+
+        <span class="skill">
+          Flask
+        </span>
+
+
+        <span class="skill">
+          SQLite
+        </span>
+
+
+        <span class="skill">
+          APIs REST
+        </span>
+
+
+        <span class="skill">
+          Requests
+        </span>
+
+
+        <span class="skill">
+          HTML5
+        </span>
+
+
+        <span class="skill">
+          CSS3
+        </span>
+
+
+        <span class="skill">
+          JavaScript
+        </span>
+
+
+        <span class="skill">
+          Tabulator
+        </span>
+
+
+        <span class="skill">
+          Git
+        </span>
+
+
+        <span class="skill">
+          GitHub
+        </span>
+
+
+        <span class="skill">
+          SQL
+        </span>
+
+
+        <span class="skill">
+          Responsividade
+        </span>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         PROJETOS
+    ========================== -->
+
+    <section
+      id="projetos"
+      aria-label="Projetos"
+    >
+
+      <h2 class="section-title">
+
+        <span class="section-title__num">
+          ./
+        </span>
+
+        projetos
+
+      </h2>
+
+
+      <div class="filetree">
+
+
+        <!-- AGENDA MÉDICA -->
+
+        <a
+          href="https://github.com/wander671/sistema-agenda-medica"
+          target="_blank"
+          rel="noopener"
+          class="file"
+        >
+
+          <span class="file__icon">
+            📁
+          </span>
+
+
+          <span class="file__info">
+
+            <span class="file__name">
+              sistema-agenda-medica
+            </span>
+
+
+            <span class="file__desc">
+
+              Sistema web para gerenciamento de consultas médicas,
+              desenvolvido com Python, Flask, SQLite, APIs REST,
+              Requests e Tabulator.
+
+            </span>
+
+          </span>
+
+
+          <span class="file__go">
+            →
+          </span>
+
+        </a>
+
+
+
+        <!-- HAJA LUZ -->
+
+        <a
+          href="https://github.com/wander671/Empresa-Haja-Luz"
+          target="_blank"
+          rel="noopener"
+          class="file"
+        >
+
+          <span class="file__icon">
+            📁
+          </span>
+
+
+          <span class="file__info">
+
+            <span class="file__name">
+              Empresa-Haja-Luz
+            </span>
+
+
+            <span class="file__desc">
+
+              Projeto de desenvolvimento web responsivo
+              utilizando HTML5, CSS3 e GitHub Pages.
+
+            </span>
+
+          </span>
+
+
+          <span class="file__go">
+            →
+          </span>
+
+        </a>
+
+
+
+        <!-- GITHUB -->
+
+        <a
+          href="https://github.com/wander671"
+          target="_blank"
+          rel="noopener"
+          class="file"
+        >
+
+          <span class="file__icon">
+            📁
+          </span>
+
+
+          <span class="file__info">
+
+            <span class="file__name">
+              github
+            </span>
+
+
+            <span class="file__desc">
+
+              Repositórios, estudos e projetos desenvolvidos
+              durante minha jornada na programação.
+
+            </span>
+
+          </span>
+
+
+          <span class="file__go">
+            →
+          </span>
+
+        </a>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         FORMAÇÃO
+    ========================== -->
+
+    <section
+      id="formacao"
+      aria-label="Formação acadêmica"
+    >
+
+      <h2 class="section-title">
+
+        <span class="section-title__num">
+          ./
+        </span>
+
+        formação
+
+      </h2>
+
+
+      <div class="formation">
+
+
+        <div class="formation__item">
+
+          <span class="formation__icon">
+            🎓
+          </span>
+
+
+          <div>
+
+            <h3>
+              Análise e Desenvolvimento de Sistemas
+            </h3>
+
+
+            <p>
+              Centro Universitário Estácio
+            </p>
+
+
+            <span class="formation__status">
+              3º semestre • Cursando
+            </span>
+
+          </div>
 
         </div>
-        
-        <!-- Rodapé -->
-        <footer>
-            <p>CONTATO</p>
-            <p>Email: wanderfarias72@gmail.com</p>
-        </footer>
 
-    </div>
+
+        <div class="formation__item">
+
+          <span class="formation__icon">
+            💻
+          </span>
+
+
+          <div>
+
+            <h3>
+              Programação Front-end
+            </h3>
+
+
+            <p>
+              Formação em HTML, CSS, JavaScript
+              e fundamentos de desenvolvimento web.
+            </p>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         SOBRE MINHA JORNADA
+    ========================== -->
+
+    <section
+      class="about"
+      aria-label="Sobre minha jornada"
+    >
+
+      <h2 class="section-title">
+
+        <span class="section-title__num">
+          ./
+        </span>
+
+        sobre mim
+
+      </h2>
+
+
+      <div class="about__content">
+
+        <p>
+
+          Sou estudante de Análise e Desenvolvimento de Sistemas
+          e venho construindo minha trajetória na programação
+          através de estudos, projetos práticos e desafios reais.
+
+        </p>
+
+
+        <p>
+
+          Atualmente tenho foco em Python e desenvolvimento Back-end,
+          trabalhando com Flask, bancos de dados, APIs e integração
+          entre sistemas.
+
+        </p>
+
+
+        <p>
+
+          Meu objetivo é continuar evoluindo como desenvolvedor,
+          transformar conhecimento em projetos práticos e
+          conquistar novas oportunidades na área de tecnologia.
+
+        </p>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         CONTATO
+    ========================== -->
+
+    <section
+      class="cta"
+      id="contato"
+      aria-label="Contato"
+    >
+
+      <p class="cta__eyebrow">
+        // vamos conversar
+      </p>
+
+
+      <h2 class="cta__title">
+        Construindo minha próxima oportunidade.
+      </h2>
+
+
+      <p class="cta__text">
+
+        Estou sempre buscando aprender,
+        desenvolver novos projetos e evoluir
+        profissionalmente na área de tecnologia.
+
+      </p>
+
+
+      <a
+        href="mailto:wanderfarias72@gmail.com"
+        class="cta__button"
+      >
+
+        Entre em contato →
+
+      </a>
+
+    </section>
+
+
+
+    <!-- =========================
+         RODAPÉ
+    ========================== -->
+
+    <footer class="footer">
+
+      <p class="footer__label">
+        contato
+      </p>
+
+
+      <a
+        href="mailto:wanderfarias72@gmail.com"
+        class="footer__mail"
+      >
+        wanderfarias72@gmail.com
+      </a>
+
+
+      <p class="footer__copy">
+
+        © 2026 Wander Farias.
+        Todos os direitos reservados.
+
+      </p>
+
+    </footer>
+
+
+  </main>
+
+
+
+  <!-- =========================
+       EFEITO DE DIGITAÇÃO
+  ========================== -->
+
+  <script>
+
+    const texto =
+      "Construo projetos, estudo tecnologia e evoluo todos os dias.";
+
+    const el =
+      document.getElementById("typed");
+
+    let i = 0;
+
+
+    function digitar() {
+
+      if (i <= texto.length) {
+
+        el.textContent =
+          texto.slice(0, i);
+
+        i++;
+
+        setTimeout(
+          digitar,
+          35
+        );
+
+      }
+
+    }
+
+
+    digitar();
+
+  </script>
+
 
 </body>
+
 </html>
+```
+
