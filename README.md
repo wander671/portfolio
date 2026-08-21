@@ -1,161 +1,86 @@
-```markdown
-# 👨‍💻 Meu Portfólio — Wander Farias
+# 💻 Portfólio — Wander Farias
 
 Portfólio pessoal desenvolvido para apresentar minha trajetória, habilidades, projetos e evolução na área de tecnologia.
 
-## 🌐 Acesse o Portfólio
+## 🚀 Sobre o projeto
 
-**Site online:**
+Este projeto apresenta meu trabalho como estudante de **Análise e Desenvolvimento de Sistemas**, com foco em **Python, desenvolvimento Web e Back-end**.
 
-https://wander671.github.io/portfolio/
+O portfólio foi desenvolvido com uma interface moderna, responsiva e inspirada em um ambiente de terminal, utilizando animações e efeitos visuais para proporcionar uma experiência mais dinâmica.
 
----
+## 🛠️ Tecnologias utilizadas
 
-## 🚀 Sobre o Projeto
+* HTML5
+* CSS3
+* JavaScript
+* Google Fonts
+* Git
+* GitHub Pages
 
-Este portfólio foi desenvolvido para apresentar meus conhecimentos em desenvolvimento web e programação, além de reunir projetos práticos desenvolvidos durante minha jornada de estudos.
+## ✨ Recursos
 
-Atualmente, meu foco está em **Python e desenvolvimento Back-end**, buscando evoluir através de projetos práticos e novos desafios.
+* Design responsivo
+* Interface Dark / Developer
+* Animações de entrada
+* Animações durante a rolagem
+* Efeito de digitação
+* Cards interativos
+* Efeitos Hover
+* Seção de habilidades
+* Seção de projetos
+* Formação acadêmica
+* Links para redes profissionais
+* Contato por e-mail e WhatsApp
 
----
+## 📂 Projetos apresentados
 
-## 🛠️ Tecnologias Utilizadas
+### 🩺 Agenda Médica
 
-### Desenvolvimento Web
+Sistema web para gerenciamento de consultas médicas desenvolvido com:
 
-- HTML5
-- CSS3
-- JavaScript
-- Design Responsivo
+* Python
+* Flask
+* SQLite
+* APIs REST
+* Requests
+* Tabulator
 
-### Back-end
+### ⚡ Empresa Haja Luz
 
-- Python
-- Flask
-- APIs REST
-- Requests
+Projeto de desenvolvimento de um site institucional responsivo utilizando:
 
-### Banco de Dados
-
-- SQLite
-- SQL
-
-### Ferramentas
-
-- Git
-- GitHub
-- Visual Studio Code
-
-### Recursos
-
-- Tabulator
-- Google Fonts
-- GitHub Pages
-
----
-
-## 📂 Projetos
-
-### 🩺 Sistema Agenda Médica
-
-Sistema web desenvolvido para gerenciamento de consultas médicas.
-
-**Tecnologias:**
-
-- Python
-- Flask
-- SQLite
-- APIs REST
-- Requests
-- Tabulator
-- HTML5
-- CSS3
-- JavaScript
-
-🔗 Repositório:
-
-https://github.com/wander671/sistema-agenda-medica
-
----
-
-### 💡 Empresa Haja Luz
-
-Site institucional responsivo desenvolvido utilizando HTML5 e CSS3.
-
-**Tecnologias:**
-
-- HTML5
-- CSS3
-- Google Fonts
-- GitHub Pages
-
-🔗 Repositório:
-
-https://github.com/wander671/Empresa-Haja-Luz
-
----
+* HTML5
+* CSS3
+* JavaScript
+* GitHub Pages
 
 ## 🎓 Formação
 
-### Análise e Desenvolvimento de Sistemas
-
-**Centro Universitário Estácio**
-
+**Análise e Desenvolvimento de Sistemas**
+Centro Universitário Estácio
 3º semestre — Cursando
 
----
+Também possuo formação em **Programação Front-end**, com conhecimentos em HTML, CSS, JavaScript e desenvolvimento web.
 
-## 📚 Estudos Atuais
+## 👨‍💻 Sobre mim
 
-Atualmente estou aprofundando meus conhecimentos em:
+Sou estudante de Análise e Desenvolvimento de Sistemas e venho construindo minha trajetória na programação através de estudos, projetos práticos e desafios técnicos.
 
-- Python
-- Desenvolvimento Back-end
-- Flask
-- APIs
-- Banco de Dados
-- SQL
-- Git e GitHub
-- Desenvolvimento Web
+Atualmente tenho foco em **Python e desenvolvimento Back-end**, trabalhando com Flask, bancos de dados, APIs e integração entre sistemas.
 
-Também desenvolvo projetos práticos para aplicar os conhecimentos adquiridos durante minha formação.
-
----
-
-## 🎯 Objetivo
-
-Construir minha carreira na área de tecnologia, evoluindo como desenvolvedor e adquirindo experiência através de projetos práticos e desafios profissionais.
-
-Meu objetivo é transformar conhecimento em soluções reais e continuar aprendendo novas tecnologias.
-
----
+Meu objetivo é continuar evoluindo profissionalmente, transformar conhecimento em projetos práticos e conquistar novas oportunidades na área de tecnologia.
 
 ## 📫 Contato
 
-📧 **E-mail:**  
-wanderfarias72@gmail.com
-
-💼 **LinkedIn:**  
-https://www.linkedin.com/in/wander-farias-396066363/
-
-🐙 **GitHub:**  
-https://github.com/wander671
-
-📸 **Instagram:**  
-https://www.instagram.com/wanderfarias.dev/
+* **GitHub:** https://github.com/wander671
+* **LinkedIn:** https://www.linkedin.com/in/wander-farias-396066363/
+* **Instagram:** https://www.instagram.com/wanderfarias.dev/
+* **E-mail:** [wanderfarias72@gmail.com](mailto:wanderfarias72@gmail.com)
 
 ---
 
-## 👨‍💻 Autor
+⭐ Desenvolvido por **Wander Farias**
 
-**Wander Farias**
-
-Estudante de Análise e Desenvolvimento de Sistemas  
-Desenvolvedor Python & Web
-
----
-
-⭐ Obrigado por visitar meu portfólio!
-```
+> Estudando, desenvolvendo e evoluindo todos os dias. 🚀
 
 

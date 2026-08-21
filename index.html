@@ -1,4 +1,4 @@
-
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -13,11 +13,13 @@
     content="Portfólio de Wander Farias, estudante de Análise e Desenvolvimento de Sistemas e desenvolvedor Python e Web."
   >
 
+  <meta name="theme-color" content="#08090c">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
     rel="stylesheet"
   >
 
@@ -27,6 +29,10 @@
 
 <body>
 
+  <!-- FUNDO -->
+
+  <div class="background-glow glow-1"></div>
+  <div class="background-glow glow-2"></div>
   <div class="noise"></div>
 
 
@@ -36,7 +42,7 @@
 
   <header class="nav">
 
-    <a href="#" class="nav__brand">
+    <a href="#sobre" class="nav__brand">
       WF<span class="nav__brand-dot">.</span>
     </a>
 
@@ -78,11 +84,11 @@
 
 
     <!-- =========================
-         HERO / SOBRE
+         HERO
     ========================== -->
 
     <section
-      class="terminal"
+      class="terminal reveal"
       id="sobre"
       aria-label="Apresentação"
     >
@@ -97,6 +103,10 @@
           wander@dev:~
         </span>
 
+        <span class="terminal__status">
+          ● online
+        </span>
+
       </div>
 
 
@@ -105,19 +115,24 @@
 
         <!-- FOTO -->
 
-        <img
-          src="Foto.jpg"
-          alt="Foto de Wander Farias"
-          class="avatar-img"
-          onerror="this.style.display='none'; document.querySelector('.avatar-fallback').style.display='flex';"
-        >
+        <div class="avatar-wrapper">
 
+          <div class="avatar-glow"></div>
 
-        <div
-          class="avatar-fallback"
-          aria-hidden="true"
-        >
-          WF
+          <img
+            src="Foto.jpg"
+            alt="Foto de Wander Farias"
+            class="avatar-img"
+            onerror="this.style.display='none'; document.querySelector('.avatar-fallback').style.display='flex';"
+          >
+
+          <div
+            class="avatar-fallback"
+            aria-hidden="true"
+          >
+            WF
+          </div>
+
         </div>
 
 
@@ -140,7 +155,10 @@
 
         <p class="terminal__out terminal__out--muted">
 
-          Desenvolvedor Python &amp; Web
+          <strong>
+            Desenvolvedor Python & Web
+          </strong>
+
           <br>
 
           Estudante de Análise e Desenvolvimento de Sistemas
@@ -152,14 +170,12 @@
             id="typed"
           ></span>
 
-          <span class="cursor">
-            ▌
-          </span>
+          <span class="cursor">▌</span>
 
         </p>
 
 
-        <!-- STATUS -->
+        <!-- BADGES -->
 
         <div class="badges">
 
@@ -168,8 +184,37 @@
           </span>
 
           <span class="badge badge--outline">
-            Brasil
+            Brasil 🇧🇷
           </span>
+
+          <span class="badge badge--green">
+            Disponível para oportunidades
+          </span>
+
+        </div>
+
+
+        <!-- BOTÕES -->
+
+        <div class="hero-actions">
+
+          <a
+            href="#projetos"
+            class="hero-button hero-button--primary"
+          >
+            Ver projetos
+            <span>↓</span>
+          </a>
+
+          <a
+            href="https://github.com/wander671"
+            target="_blank"
+            rel="noopener"
+            class="hero-button hero-button--secondary"
+          >
+            GitHub
+            <span>↗</span>
+          </a>
 
         </div>
 
@@ -184,7 +229,7 @@
     ========================== -->
 
     <nav
-      class="redes"
+      class="redes reveal"
       aria-label="Redes sociais"
     >
 
@@ -239,12 +284,14 @@
       <a
         href="mailto:wanderfarias72@gmail.com"
         class="rede"
-        title="Enviar e-mail para Wander Farias"
       >
+
         <span class="rede__icon">
           ◆
         </span>
-        wanderfarias72@gmail.com
+
+        E-mail
+
       </a>
 
     </nav>
@@ -258,6 +305,7 @@
     <section
       id="habilidades"
       aria-label="Habilidades técnicas"
+      class="reveal"
     >
 
       <h2 class="section-title">
@@ -273,71 +321,19 @@
 
       <div class="skills">
 
-
-        <span class="skill">
-          Python
-        </span>
-
-
-        <span class="skill">
-          Flask
-        </span>
-
-
-        <span class="skill">
-          SQLite
-        </span>
-
-
-        <span class="skill">
-          APIs REST
-        </span>
-
-
-        <span class="skill">
-          Requests
-        </span>
-
-
-        <span class="skill">
-          HTML5
-        </span>
-
-
-        <span class="skill">
-          CSS3
-        </span>
-
-
-        <span class="skill">
-          JavaScript
-        </span>
-
-
-        <span class="skill">
-          Tabulator
-        </span>
-
-
-        <span class="skill">
-          Git
-        </span>
-
-
-        <span class="skill">
-          GitHub
-        </span>
-
-
-        <span class="skill">
-          SQL
-        </span>
-
-
-        <span class="skill">
-          Responsividade
-        </span>
-
+        <span class="skill">Python</span>
+        <span class="skill">Flask</span>
+        <span class="skill">SQLite</span>
+        <span class="skill">APIs REST</span>
+        <span class="skill">Requests</span>
+        <span class="skill">HTML5</span>
+        <span class="skill">CSS3</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">Tabulator</span>
+        <span class="skill">Git</span>
+        <span class="skill">GitHub</span>
+        <span class="skill">SQL</span>
+        <span class="skill">Responsividade</span>
 
       </div>
 
@@ -352,6 +348,7 @@
     <section
       id="projetos"
       aria-label="Projetos"
+      class="reveal"
     >
 
       <h2 class="section-title">
@@ -377,16 +374,24 @@
           class="file"
         >
 
-          <span class="file__icon">
-            📁
-          </span>
+          <div class="file__icon">
+            🩺
+          </div>
 
 
-          <span class="file__info">
+          <div class="file__info">
 
-            <span class="file__name">
-              sistema-agenda-medica
-            </span>
+            <div class="file__top">
+
+              <span class="file__name">
+                sistema-agenda-medica
+              </span>
+
+              <span class="project-status">
+                Em desenvolvimento
+              </span>
+
+            </div>
 
 
             <span class="file__desc">
@@ -397,11 +402,21 @@
 
             </span>
 
-          </span>
+
+            <div class="project-tech">
+
+              <span>Python</span>
+              <span>Flask</span>
+              <span>SQLite</span>
+              <span>REST API</span>
+
+            </div>
+
+          </div>
 
 
           <span class="file__go">
-            →
+            ↗
           </span>
 
         </a>
@@ -417,16 +432,24 @@
           class="file"
         >
 
-          <span class="file__icon">
-            📁
-          </span>
+          <div class="file__icon">
+            ⚡
+          </div>
 
 
-          <span class="file__info">
+          <div class="file__info">
 
-            <span class="file__name">
-              Empresa-Haja-Luz
-            </span>
+            <div class="file__top">
+
+              <span class="file__name">
+                Empresa-Haja-Luz
+              </span>
+
+              <span class="project-status project-status--completed">
+                Concluído
+              </span>
+
+            </div>
 
 
             <span class="file__desc">
@@ -436,11 +459,20 @@
 
             </span>
 
-          </span>
+
+            <div class="project-tech">
+
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>GitHub Pages</span>
+
+            </div>
+
+          </div>
 
 
           <span class="file__go">
-            →
+            ↗
           </span>
 
         </a>
@@ -456,16 +488,24 @@
           class="file"
         >
 
-          <span class="file__icon">
-            📁
-          </span>
+          <div class="file__icon">
+            💻
+          </div>
 
 
-          <span class="file__info">
+          <div class="file__info">
 
-            <span class="file__name">
-              github
-            </span>
+            <div class="file__top">
+
+              <span class="file__name">
+                github
+              </span>
+
+              <span class="project-status">
+                Repositórios
+              </span>
+
+            </div>
 
 
             <span class="file__desc">
@@ -475,11 +515,20 @@
 
             </span>
 
-          </span>
+
+            <div class="project-tech">
+
+              <span>Projetos</span>
+              <span>Estudos</span>
+              <span>Código</span>
+
+            </div>
+
+          </div>
 
 
           <span class="file__go">
-            →
+            ↗
           </span>
 
         </a>
@@ -498,6 +547,7 @@
     <section
       id="formacao"
       aria-label="Formação acadêmica"
+      class="reveal"
     >
 
       <h2 class="section-title">
@@ -573,11 +623,11 @@
 
 
     <!-- =========================
-         SOBRE MINHA JORNADA
+         SOBRE MIM
     ========================== -->
 
     <section
-      class="about"
+      class="about reveal"
       aria-label="Sobre minha jornada"
     >
 
@@ -627,14 +677,16 @@
 
 
     <!-- =========================
-         CONTATO
+         CTA
     ========================== -->
 
     <section
-      class="cta"
+      class="cta reveal"
       id="contato"
       aria-label="Contato"
     >
+
+      <div class="cta__glow"></div>
 
       <p class="cta__eyebrow">
         // vamos conversar
@@ -655,14 +707,25 @@
       </p>
 
 
-      <a
-        href="mailto:wanderfarias72@gmail.com"
-        class="cta__button"
-      >
+      <div class="cta__actions">
 
-        Entre em contato →
+        <a
+          href="mailto:wanderfarias72@gmail.com"
+          class="cta__button"
+        >
+          Entre em contato →
+        </a>
 
-      </a>
+        <a
+          href="https://wa.me/5521999990000"
+          target="_blank"
+          rel="noopener"
+          class="cta__button cta__button--outline"
+        >
+          WhatsApp ↗
+        </a>
+
+      </div>
 
     </section>
 
@@ -702,10 +765,14 @@
 
 
   <!-- =========================
-       EFEITO DE DIGITAÇÃO
+       JAVASCRIPT
   ========================== -->
 
   <script>
+
+    /* =========================
+       EFEITO DE DIGITAÇÃO
+    ========================== */
 
     const texto =
       "Construo projetos, estudo tecnologia e evoluo todos os dias.";
@@ -714,7 +781,6 @@
       document.getElementById("typed");
 
     let i = 0;
-
 
     function digitar() {
 
@@ -734,8 +800,95 @@
 
     }
 
-
     digitar();
+
+
+
+    /* =========================
+       ANIMAÇÃO AO ROLAR
+    ========================== */
+
+    const elementos =
+      document.querySelectorAll(".reveal");
+
+    const observer =
+      new IntersectionObserver(
+
+        (entries) => {
+
+          entries.forEach(
+            (entry) => {
+
+              if (entry.isIntersecting) {
+
+                entry.target.classList.add("active");
+
+                observer.unobserve(
+                  entry.target
+                );
+
+              }
+
+            }
+          );
+
+        },
+
+        {
+          threshold: 0.12
+        }
+
+      );
+
+
+    elementos.forEach(
+      (elemento) => {
+
+        observer.observe(
+          elemento
+        );
+
+      }
+    );
+
+
+
+    /* =========================
+       ANIMAÇÃO DOS CARDS
+    ========================== */
+
+    const cards =
+      document.querySelectorAll(".file");
+
+    cards.forEach(
+      (card, index) => {
+
+        card.style.setProperty(
+          "--delay",
+          `${index * 100}ms`
+        );
+
+      }
+    );
+
+
+
+    /* =========================
+       ANO AUTOMÁTICO
+    ========================== */
+
+    const ano =
+      new Date().getFullYear();
+
+    const copyright =
+      document.querySelector(".footer__copy");
+
+    if (copyright) {
+
+      copyright.innerHTML =
+        `© ${ano} Wander Farias. Todos os direitos reservados.`;
+
+    }
 
   </script>
 
@@ -744,4 +897,5 @@
 
 </html>
 ```
+
 
