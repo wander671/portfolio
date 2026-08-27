@@ -1,72 +1,176 @@
-# 🚀 Portfólio Profissional — Wander Farias
+# 👨‍💻 Wander Farias — Desenvolvedor Python & Web
 
 <p align="center">
-  <strong>Desenvolvedor Python & Web | Estudante de Análise e Desenvolvimento de Sistemas</strong>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Em_Evolução-7c3aed?style=flat-square" alt="Status">
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white">
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/Git-GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
 </p>
 
 ---
 
-## 💻 Sobre o Projeto
+## 🚀 Sobre o projeto
 
-Este é o meu **portfólio pessoal e profissional**, desenvolvido com o objetivo de centralizar meus projetos, demonstrar minhas habilidades técnicas e apresentar minha trajetória na área de tecnologia. 
+Este é meu portfólio pessoal desenvolvido para apresentar minha trajetória na área de tecnologia, meus projetos, habilidades e formação.
 
-O site foi construído com uma identidade visual moderna inspirada em ambiente de desenvolvimento (estilo terminal/CLI), contando com:
-* Design responsivo e otimizado.
-* Efeitos visuais modernos com CSS puro e animações dinâmicas em JavaScript.
-* **Seção interativa de Certificados e Diplomas**, utilizando o efeito *Modal/Lightbox* para que visitantes possam visualizar as certificações diretamente na página.
+O projeto foi desenvolvido com foco em:
 
----
-
-## 🛠️ Tecnologias e Ferramentas Utilizadas
-
-* **Front-end:** HTML5, CSS3, JavaScript (ES6+).
-* **Back-end & Dados (Estudos/Projetos):** Python, Flask, SQLite, Pandas, SQL.
-* **Controle de Versão:** Git e GitHub.
-* **Conceitos:** APIs REST, Automação, Inteligência Artificial.
+- 🎨 Interface moderna e responsiva
+- 💻 Apresentação profissional
+- 🐍 Destaque para desenvolvimento com Python
+- 📂 Organização dos principais projetos
+- 🎓 Apresentação da formação e certificados
+- 🔗 Integração com GitHub e LinkedIn
+- 📱 Responsividade para dispositivos móveis
+- ✨ Animações e efeitos visuais
+- 🎥 Animação 3D integrada ao Hero
 
 ---
 
-## 🎓 Formação & Certificações em Destaque
+## 🛠️ Tecnologias utilizadas
 
-* **Análise e Desenvolvimento de Sistemas** — Centro Universitário Estácio *(Cursando)*
-* **Programador (Formação Profissionalizante)** — Grau Técnico
-* **AI Code Experience (2ª Edição)** — Academia das IAs
-* **Python (Open Academy)** — Santander
+### Front-end
 
----
+- HTML5
+- CSS3
+- JavaScript
 
-## 📂 Principais Projetos no Portfólio
+### Desenvolvimento
 
-| Projeto | Descrição | Tecnologias |
-| :--- | :--- | :--- |
-| **[Sistema Agenda Médica](https://github.com/wander671/sistema-agenda-medica)** | Sistema web para gerenciamento de consultas médicas. | Python, Flask, SQLite, SQL, APIs REST, Tabulator |
-| **[Agentes de IA com Python](https://github.com/wander671/Agentes-de-IA-com-Python)** | Exploração de conceitos de Inteligência Artificial e construção de agentes. | Python, IA |
-| **[Chatbot IA Python](https://github.com/wander671/Chatbot-IA-Python)** | Chatbot interativo utilizando conceitos de Inteligência Artificial. | Python, Chatbot |
-| **[Análise de Dados](https://github.com/wander671/Analise-de-dados-Python)** | Projeto de exploração, tratamento e interpretação de dados. | Python, Pandas |
-| **[Automação Python](https://github.com/wander671/Automacao-Python)** | Scripts para otimização de tarefas repetitivas. | Python, PyAutoGUI |
+- Python
+- Flask
+- SQL
+- SQLite
+- APIs REST
+- Pandas
+- Git
+- GitHub
 
----
+### Outros
 
-## 📫 Contato & Redes
-
-* **E-mail:** [wanderfarias72@gmail.com](mailto:wanderfarias72@gmail.com)
-* **LinkedIn:** [Wander Farias](https://www.linkedin.com/in/wander-farias-396066363/)
-* **Instagram:** [@wanderfarias.dev](https://www.instagram.com/wanderfarias.dev/)
-* **GitHub:** [@wander671](https://github.com/wander671)
+- Tabulator
+- PyAutoGUI
+- Inteligência Artificial
+- Automação
 
 ---
 
-<p align="center">
-  <i>© 2026 Wander Farias. Todos os direitos reservados.</i>
-</p>
+## 📂 Projetos em destaque
 
+### 🩺 Sistema Agenda Médica
 
+Sistema web para gerenciamento de consultas médicas.
+
+**Tecnologias:**
+
+`Python` `Flask` `SQLite` `SQL` `REST API` `Tabulator`
+
+🔗 [Ver projeto](https://github.com/wander671/sistema-agenda-medica)
+
+---
+
+### 🤖 Agentes de IA com Python
+
+Projeto desenvolvido em Python explorando conceitos de Inteligência Artificial e construção de agentes.
+
+**Tecnologias:**
+
+`Python` `IA` `Agentes`
+
+🔗 [Ver projeto](https://github.com/wander671/Agentes-de-IA-com-Python)
+
+---
+
+### 💬 Chatbot IA Python
+
+Chatbot desenvolvido com Python utilizando conceitos de Inteligência Artificial e interação com o usuário.
+
+**Tecnologias:**
+
+`Python` `IA` `Chatbot`
+
+🔗 [Ver projeto](https://github.com/wander671/Chatbot-IA-Python)
+
+---
+
+### 📊 Análise de Dados com Python
+
+Projeto voltado para exploração, tratamento e interpretação de dados utilizando Python.
+
+**Tecnologias:**
+
+`Python` `Pandas` `Análise de Dados`
+
+🔗 [Ver projeto](https://github.com/wander671/Analise-de-dados-Python)
+
+---
+
+### ⚙️ Automação Python
+
+Projeto de automação desenvolvido para otimizar tarefas repetitivas.
+
+**Tecnologias:**
+
+`Python` `PyAutoGUI` `Automação`
+
+🔗 [Ver projeto](https://github.com/wander671/Automacao-Python)
+
+---
+
+## 🎓 Formação
+
+**Análise e Desenvolvimento de Sistemas**  
+Centro Universitário Estácio
+
+📚 3º semestre — Cursando
+
+Também possuo formação em **Programação Front-end** e certificados relacionados a Python e Inteligência Artificial.
+
+---
+
+## 🎯 Objetivo
+
+Meu objetivo é continuar evoluindo na área de tecnologia através de projetos práticos, estudos e novos desafios profissionais.
+
+Atualmente meu foco está principalmente em:
+
+- 🐍 Python
+- ⚙️ Desenvolvimento Back-end
+- 🗄️ Bancos de dados
+- 🔌 APIs
+- 🤖 Inteligência Artificial
+- 📊 Análise de dados
+- 🚀 Desenvolvimento de projetos reais
+
+---
+
+## 🌐 Portfólio
+
+👉 **[Acessar meu portfólio](https://wander671.github.io/portfolio/)**
+
+---
+
+## 🔗 Contato
+
+💼 **LinkedIn:**  
+https://www.linkedin.com/in/wander-farias-396066363/
+
+🐙 **GitHub:**  
+https://github.com/wander671
+
+📧 **E-mail:**  
+wanderfarias72@gmail.com
+
+---
+
+## 📌 Status
+
+🟢 Portfólio em evolução constante.
+
+> "Construo projetos, estudo tecnologia e evoluo todos os dias."
+
+---
+
+© 2026 Wander Farias
