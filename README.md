@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white">
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sqlite&logoColor=white">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
   <img src="https://img.shields.io/badge/Git-GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
@@ -13,19 +13,24 @@
 
 ## 🚀 Sobre o projeto
 
-Este é meu portfólio pessoal desenvolvido para apresentar minha trajetória na área de tecnologia, meus projetos, habilidades e formação.
+Este é meu portfólio pessoal desenvolvido para apresentar minha trajetória na área de tecnologia, meus projetos, habilidades, formação e certificados.
 
-O projeto foi desenvolvido com foco em:
+O projeto possui uma interface moderna, responsiva e inspirada em ambientes de desenvolvimento, utilizando elementos visuais que remetem a um terminal.
+
+### ✨ Destaques
 
 - 🎨 Interface moderna e responsiva
-- 💻 Apresentação profissional
-- 🐍 Destaque para desenvolvimento com Python
+- 💻 Design inspirado em terminal
+- 🐍 Destaque para Python
 - 📂 Organização dos principais projetos
-- 🎓 Apresentação da formação e certificados
-- 🔗 Integração com GitHub e LinkedIn
+- 🎓 Formação e certificados
+- 🔗 Links para GitHub, LinkedIn e Instagram
 - 📱 Responsividade para dispositivos móveis
 - ✨ Animações e efeitos visuais
-- 🎥 Animação 3D integrada ao Hero
+- 🎥 Animação 3D personalizada no Hero
+- 🖼️ Modal para visualização dos certificados
+- ⌨️ Efeito de digitação
+- 🔄 Animações durante a navegação
 
 ---
 
@@ -48,12 +53,14 @@ O projeto foi desenvolvido com foco em:
 - Git
 - GitHub
 
-### Outros
+### Ferramentas e conceitos
 
 - Tabulator
 - PyAutoGUI
-- Inteligência Artificial
 - Automação
+- Inteligência Artificial
+- Responsividade
+- GitHub Pages
 
 ---
 
@@ -109,7 +116,7 @@ Projeto voltado para exploração, tratamento e interpretação de dados utiliza
 
 ### ⚙️ Automação Python
 
-Projeto de automação desenvolvido para otimizar tarefas repetitivas.
+Projeto de automação desenvolvido com Python para otimizar tarefas repetitivas.
 
 **Tecnologias:**
 
@@ -121,25 +128,38 @@ Projeto de automação desenvolvido para otimizar tarefas repetitivas.
 
 ## 🎓 Formação
 
-**Análise e Desenvolvimento de Sistemas**  
-Centro Universitário Estácio
+### Análise e Desenvolvimento de Sistemas
+
+**Centro Universitário Estácio**
 
 📚 3º semestre — Cursando
 
-Também possuo formação em **Programação Front-end** e certificados relacionados a Python e Inteligência Artificial.
+### Programação Front-end
+
+Formação em desenvolvimento web com HTML, CSS, JavaScript e fundamentos de programação.
+
+---
+
+## 📜 Certificados
+
+Entre os certificados e formações apresentados no portfólio estão:
+
+- 💻 Programador — Grau Profissionalizante
+- 🤖 AI Code Experience — Academia das IAs
+- 🐍 Python — Santander Open Academy
 
 ---
 
 ## 🎯 Objetivo
 
-Meu objetivo é continuar evoluindo na área de tecnologia através de projetos práticos, estudos e novos desafios profissionais.
+Meu objetivo é continuar evoluindo na área de tecnologia através de estudos, projetos práticos e novos desafios profissionais.
 
-Atualmente meu foco está principalmente em:
+Atualmente, meus principais interesses estão em:
 
 - 🐍 Python
 - ⚙️ Desenvolvimento Back-end
 - 🗄️ Bancos de dados
-- 🔌 APIs
+- 🔌 APIs REST
 - 🤖 Inteligência Artificial
 - 📊 Análise de dados
 - 🚀 Desenvolvimento de projetos reais
@@ -148,19 +168,22 @@ Atualmente meu foco está principalmente em:
 
 ## 🌐 Portfólio
 
-👉 **[Acessar meu portfólio](https://wander671.github.io/portfolio/)**
+👉 [Acessar meu portfólio](https://wander671.github.io/portfolio/)
 
 ---
 
 ## 🔗 Contato
 
-💼 **LinkedIn:**  
+💼 **LinkedIn**
+
 https://www.linkedin.com/in/wander-farias-396066363/
 
-🐙 **GitHub:**  
+🐙 **GitHub**
+
 https://github.com/wander671
 
-📧 **E-mail:**  
+📧 **E-mail**
+
 wanderfarias72@gmail.com
 
 ---

@@ -33,106 +33,241 @@
   <div class="noise"></div>
 
   <!-- =========================
-         NAVEGAÇÃO
+       NAVEGAÇÃO
   ========================== -->
   <header class="nav">
+
     <a href="#sobre" class="nav__brand">
       WF<span class="nav__brand-dot">.</span>
     </a>
+
     <nav class="nav__links" aria-label="Navegação principal">
       <a href="#sobre">Sobre</a>
       <a href="#habilidades">Habilidades</a>
       <a href="#projetos">Projetos</a>
       <a href="#formacao">Formação</a>
+      <a href="#certificados">Certificados</a>
       <a href="#contato" class="nav__cta">Contato</a>
     </nav>
+
   </header>
 
   <main class="container">
 
     <!-- =========================
-           HERO
+         HERO
     ========================== -->
-    <section class="terminal reveal" id="sobre" aria-label="Apresentação">
+    <section
+      class="terminal reveal"
+      id="sobre"
+      aria-label="Apresentação"
+    >
+
       <div class="terminal__bar">
+
         <span class="dot dot--red"></span>
         <span class="dot dot--yellow"></span>
         <span class="dot dot--green"></span>
-        <span class="terminal__path">wander@dev:~</span>
-        <span class="terminal__status">● online</span>
+
+        <span class="terminal__path">
+          wander@dev:~
+        </span>
+
+        <span class="terminal__status">
+          ● online
+        </span>
+
       </div>
 
       <div class="terminal__body">
+
         <!-- FOTO -->
         <div class="avatar-wrapper">
+
           <div class="avatar-glow"></div>
+
           <img
             src="Foto.jpg"
             alt="Foto de Wander Farias"
             class="avatar-img"
             onerror="this.style.display='none'; document.querySelector('.avatar-fallback').style.display='flex';"
           >
-          <div class="avatar-fallback" aria-hidden="true">WF</div>
+
+          <div
+            class="avatar-fallback"
+            aria-hidden="true"
+          >
+            WF
+          </div>
+
         </div>
 
         <!-- APRESENTAÇÃO -->
-        <p class="terminal__line"><span class="prompt">$</span> whoami</p>
-        <h1 class="terminal__out">Wander Farias</h1>
-        <p class="terminal__line"><span class="prompt">$</span> cat sobre.txt</p>
+        <p class="terminal__line">
+          <span class="prompt">$</span> whoami
+        </p>
+
+        <h1 class="terminal__out">
+          Wander Farias
+        </h1>
+
+        <p class="terminal__line">
+          <span class="prompt">$</span> cat sobre.txt
+        </p>
 
         <p class="terminal__out terminal__out--muted">
-          <strong>Desenvolvedor Python & Web</strong><br>
-          Estudante de Análise e Desenvolvimento de Sistemas<br>
-          <span class="typed" id="typed"></span>
+
+          <strong>
+            Desenvolvedor Python & Web
+          </strong>
+
+          <br>
+
+          Estudante de Análise e Desenvolvimento de Sistemas
+
+          <br>
+
+          <span
+            class="typed"
+            id="typed"
+          ></span>
+
           <span class="cursor">▌</span>
+
         </p>
 
         <!-- BADGES -->
         <div class="badges">
-          <span class="badge">Desenvolvedor em evolução</span>
-          <span class="badge badge--outline">Brasil 🇧🇷</span>
-          <span class="badge badge--green">Disponível para oportunidades</span>
+
+          <span class="badge">
+            Desenvolvedor em evolução
+          </span>
+
+          <span class="badge badge--outline">
+            Brasil 🇧🇷
+          </span>
+
+          <span class="badge badge--green">
+            Disponível para oportunidades
+          </span>
+
         </div>
 
         <!-- BOTÕES -->
         <div class="hero-actions">
-          <a href="#projetos" class="hero-button hero-button--primary">
+
+          <a
+            href="#projetos"
+            class="hero-button hero-button--primary"
+          >
             Ver projetos <span>↓</span>
           </a>
-          <a href="https://github.com/wander671" target="_blank" rel="noopener" class="hero-button hero-button--secondary">
+
+          <a
+            href="https://github.com/wander671"
+            target="_blank"
+            rel="noopener"
+            class="hero-button hero-button--secondary"
+          >
             GitHub <span>↗</span>
           </a>
+
         </div>
 
-        <!-- IMAGEM REAL / 3D DE PROGRAMADOR NO TOPO -->
+        <!-- ANIMAÇÃO 3D -->
         <div class="hero-animation-wrapper">
-          <img src="Foto_apresentação.png" alt="Desenvolvedor com notebook" class="real-dev-img">
+
+          <video
+            class="real-dev-img"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="auto"
+            aria-label="Animação 3D de desenvolvedor"
+          >
+
+            <source
+              src="hero-nb-loop-m-wander-dev.mp4"
+              type="video/mp4"
+            >
+
+            Seu navegador não suporta vídeo.
+
+          </video>
+
         </div>
+
+      </div>
+
+    </section>
+
 
     <!-- =========================
-           REDES SOCIAIS
+         REDES SOCIAIS
     ========================== -->
-    <nav class="redes reveal" aria-label="Redes sociais">
-      <a href="https://github.com/wander671" target="_blank" rel="noopener" class="rede">
-        <span class="rede__icon">◆</span> GitHub
+    <nav
+      class="redes reveal"
+      aria-label="Redes sociais"
+    >
+
+      <a
+        href="https://github.com/wander671"
+        target="_blank"
+        rel="noopener"
+        class="rede"
+      >
+        <span class="rede__icon">◆</span>
+        GitHub
       </a>
-      <a href="https://www.linkedin.com/in/wander-farias-396066363/" target="_blank" rel="noopener" class="rede">
-        <span class="rede__icon">◆</span> LinkedIn
+
+      <a
+        href="https://www.linkedin.com/in/wander-farias-396066363/"
+        target="_blank"
+        rel="noopener"
+        class="rede"
+      >
+        <span class="rede__icon">◆</span>
+        LinkedIn
       </a>
-      <a href="https://www.instagram.com/wanderfarias.dev/" target="_blank" rel="noopener" class="rede">
-        <span class="rede__icon">◆</span> Instagram
+
+      <a
+        href="https://www.instagram.com/wanderfarias.dev/"
+        target="_blank"
+        rel="noopener"
+        class="rede"
+      >
+        <span class="rede__icon">◆</span>
+        Instagram
       </a>
-      <a href="mailto:wanderfarias72@gmail.com" class="rede">
-        <span class="rede__icon">◆</span> E-mail
+
+      <a
+        href="mailto:wanderfarias72@gmail.com"
+        class="rede"
+      >
+        <span class="rede__icon">◆</span>
+        E-mail
       </a>
+
     </nav>
 
+
     <!-- =========================
-           HABILIDADES
+         HABILIDADES
     ========================== -->
-    <section id="habilidades" aria-label="Habilidades técnicas" class="reveal">
-      <h2 class="section-title"><span class="section-title__num">./</span> habilidades</h2>
+    <section
+      id="habilidades"
+      aria-label="Habilidades técnicas"
+      class="reveal"
+    >
+
+      <h2 class="section-title">
+        <span class="section-title__num">./</span>
+        habilidades
+      </h2>
+
       <div class="skills">
+
         <span class="skill">Python</span>
         <span class="skill">Flask</span>
         <span class="skill">SQLite</span>
@@ -149,296 +284,780 @@
         <span class="skill">Automação</span>
         <span class="skill">Inteligência Artificial</span>
         <span class="skill">Responsividade</span>
+
       </div>
+
     </section>
 
+
     <!-- =========================
-           PROJETOS
+         PROJETOS
     ========================== -->
-    <section id="projetos" aria-label="Projetos" class="reveal">
-      <h2 class="section-title"><span class="section-title__num">./</span> projetos</h2>
+    <section
+      id="projetos"
+      aria-label="Projetos"
+      class="reveal"
+    >
+
+      <h2 class="section-title">
+        <span class="section-title__num">./</span>
+        projetos
+      </h2>
+
       <div class="filetree">
+
         <!-- AGENDA MÉDICA -->
-        <a href="https://github.com/wander671/sistema-agenda-medica" target="_blank" rel="noopener" class="file">
+        <a
+          href="https://github.com/wander671/sistema-agenda-medica"
+          target="_blank"
+          rel="noopener"
+          class="file"
+        >
+
           <div class="file__icon">🩺</div>
+
           <div class="file__info">
+
             <div class="file__top">
-              <span class="file__name">sistema-agenda-medica</span>
-              <span class="project-status">Em desenvolvimento</span>
+
+              <span class="file__name">
+                sistema-agenda-medica
+              </span>
+
+              <span class="project-status">
+                Em desenvolvimento
+              </span>
+
             </div>
-            <span class="file__desc">Sistema web para gerenciamento de consultas médicas, desenvolvido com Python, Flask, SQLite, SQL, APIs REST e Tabulator.</span>
+
+            <span class="file__desc">
+              Sistema web para gerenciamento de consultas médicas,
+              desenvolvido com Python, Flask, SQLite, SQL, APIs REST e Tabulator.
+            </span>
+
             <div class="project-tech">
-              <span>Python</span><span>Flask</span><span>SQLite</span><span>SQL</span><span>REST API</span>
+              <span>Python</span>
+              <span>Flask</span>
+              <span>SQLite</span>
+              <span>SQL</span>
+              <span>REST API</span>
             </div>
+
           </div>
+
           <span class="file__go">↗</span>
+
         </a>
+
 
         <!-- AGENTES DE IA -->
-        <a href="https://github.com/wander671/Agentes-de-IA-com-Python" target="_blank" rel="noopener" class="file">
+        <a
+          href="https://github.com/wander671/Agentes-de-IA-com-Python"
+          target="_blank"
+          rel="noopener"
+          class="file"
+        >
+
           <div class="file__icon">🤖</div>
+
           <div class="file__info">
+
             <div class="file__top">
-              <span class="file__name">Agentes-de-IA-com-Python</span>
-              <span class="project-status project-status--completed">Projeto</span>
+
+              <span class="file__name">
+                Agentes-de-IA-com-Python
+              </span>
+
+              <span class="project-status project-status--completed">
+                Projeto
+              </span>
+
             </div>
-            <span class="file__desc">Projeto desenvolvido em Python explorando conceitos de Inteligência Artificial e construção de agentes.</span>
+
+            <span class="file__desc">
+              Projeto desenvolvido em Python explorando conceitos
+              de Inteligência Artificial e construção de agentes.
+            </span>
+
             <div class="project-tech">
-              <span>Python</span><span>IA</span><span>Agentes</span>
+              <span>Python</span>
+              <span>IA</span>
+              <span>Agentes</span>
             </div>
+
           </div>
+
           <span class="file__go">↗</span>
+
         </a>
+
 
         <!-- CHATBOT IA -->
-        <a href="https://github.com/wander671/Chatbot-IA-Python" target="_blank" rel="noopener" class="file">
+        <a
+          href="https://github.com/wander671/Chatbot-IA-Python"
+          target="_blank"
+          rel="noopener"
+          class="file"
+        >
+
           <div class="file__icon">💬</div>
+
           <div class="file__info">
+
             <div class="file__top">
-              <span class="file__name">Chatbot-IA-Python</span>
-              <span class="project-status project-status--completed">Projeto</span>
+
+              <span class="file__name">
+                Chatbot-IA-Python
+              </span>
+
+              <span class="project-status project-status--completed">
+                Projeto
+              </span>
+
             </div>
-            <span class="file__desc">Chatbot desenvolvido com Python utilizando conceitos de Inteligência Artificial e interação com o usuário.</span>
+
+            <span class="file__desc">
+              Chatbot desenvolvido com Python utilizando conceitos
+              de Inteligência Artificial e interação com o usuário.
+            </span>
+
             <div class="project-tech">
-              <span>Python</span><span>IA</span><span>Chatbot</span>
+              <span>Python</span>
+              <span>IA</span>
+              <span>Chatbot</span>
             </div>
+
           </div>
+
           <span class="file__go">↗</span>
+
         </a>
+
 
         <!-- ANÁLISE DE DADOS -->
-        <a href="https://github.com/wander671/Analise-de-dados-Python" target="_blank" rel="noopener" class="file">
+        <a
+          href="https://github.com/wander671/Analise-de-dados-Python"
+          target="_blank"
+          rel="noopener"
+          class="file"
+        >
+
           <div class="file__icon">📊</div>
+
           <div class="file__info">
+
             <div class="file__top">
-              <span class="file__name">Analise-de-dados-Python</span>
-              <span class="project-status project-status--completed">Projeto</span>
+
+              <span class="file__name">
+                Analise-de-dados-Python
+              </span>
+
+              <span class="project-status project-status--completed">
+                Projeto
+              </span>
+
             </div>
-            <span class="file__desc">Projeto de análise de dados utilizando Python para exploração, tratamento e interpretação de informações.</span>
+
+            <span class="file__desc">
+              Projeto de análise de dados utilizando Python para
+              exploração, tratamento e interpretação de informações.
+            </span>
+
             <div class="project-tech">
-              <span>Python</span><span>Pandas</span><span>Análise de Dados</span>
+              <span>Python</span>
+              <span>Pandas</span>
+              <span>Análise de Dados</span>
             </div>
+
           </div>
+
           <span class="file__go">↗</span>
+
         </a>
+
 
         <!-- AUTOMAÇÃO PYTHON -->
-        <a href="https://github.com/wander671/Automacao-Python" target="_blank" rel="noopener" class="file">
+        <a
+          href="https://github.com/wander671/Automacao-Python"
+          target="_blank"
+          rel="noopener"
+          class="file"
+        >
+
           <div class="file__icon">⚙️</div>
+
           <div class="file__info">
+
             <div class="file__top">
-              <span class="file__name">Automacao-Python</span>
-              <span class="project-status project-status--completed">Projeto</span>
+
+              <span class="file__name">
+                Automacao-Python
+              </span>
+
+              <span class="project-status project-status--completed">
+                Projeto
+              </span>
+
             </div>
-            <span class="file__desc">Projeto de automação desenvolvido com Python, aplicando programação para otimizar tarefas repetitivas.</span>
+
+            <span class="file__desc">
+              Projeto de automação desenvolvido com Python,
+              aplicando programação para otimizar tarefas repetitivas.
+            </span>
+
             <div class="project-tech">
-              <span>Python</span><span>Automação</span><span>PyAutoGUI</span>
+              <span>Python</span>
+              <span>Automação</span>
+              <span>PyAutoGUI</span>
             </div>
+
           </div>
+
           <span class="file__go">↗</span>
+
         </a>
+
 
         <!-- GITHUB -->
-        <a href="https://github.com/wander671" target="_blank" rel="noopener" class="file">
+        <a
+          href="https://github.com/wander671"
+          target="_blank"
+          rel="noopener"
+          class="file"
+        >
+
           <div class="file__icon">💻</div>
+
           <div class="file__info">
+
             <div class="file__top">
-              <span class="file__name">github</span>
-              <span class="project-status">Repositórios</span>
+
+              <span class="file__name">
+                github
+              </span>
+
+              <span class="project-status">
+                Repositórios
+              </span>
+
             </div>
-            <span class="file__desc">Confira meus repositórios, projetos e estudos desenvolvidos durante minha jornada na programação.</span>
+
+            <span class="file__desc">
+              Confira meus repositórios, projetos e estudos
+              desenvolvidos durante minha jornada na programação.
+            </span>
+
             <div class="project-tech">
-              <span>Python</span><span>Projetos</span><span>GitHub</span>
+              <span>Python</span>
+              <span>Projetos</span>
+              <span>GitHub</span>
             </div>
+
           </div>
+
           <span class="file__go">↗</span>
+
         </a>
+
       </div>
+
     </section>
 
+
     <!-- =========================
-           FORMAÇÃO
+         FORMAÇÃO
     ========================== -->
-    <section id="formacao" aria-label="Formação acadêmica" class="reveal">
-      <h2 class="section-title"><span class="section-title__num">./</span> formação</h2>
+    <section
+      id="formacao"
+      aria-label="Formação acadêmica"
+      class="reveal"
+    >
+
+      <h2 class="section-title">
+        <span class="section-title__num">./</span>
+        formação
+      </h2>
+
       <div class="formation">
+
         <div class="formation__item">
+
           <span class="formation__icon">🎓</span>
+
           <div>
-            <h3>Análise e Desenvolvimento de Sistemas</h3>
-            <p>Centro Universitário Estácio</p>
-            <span class="formation__status">3º semestre • Cursando</span>
+
+            <h3>
+              Análise e Desenvolvimento de Sistemas
+            </h3>
+
+            <p>
+              Centro Universitário Estácio
+            </p>
+
+            <span class="formation__status">
+              3º semestre • Cursando
+            </span>
+
           </div>
+
         </div>
+
+
         <div class="formation__item">
+
           <span class="formation__icon">💻</span>
+
           <div>
-            <h3>Programação Front-end</h3>
-            <p>Formação em HTML, CSS, JavaScript e fundamentos de desenvolvimento web.</p>
+
+            <h3>
+              Programação Front-end
+            </h3>
+
+            <p>
+              Formação em HTML, CSS, JavaScript e fundamentos
+              de desenvolvimento web.
+            </p>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
 
+
     <!-- =========================
-           CERTIFICADOS 
+         CERTIFICADOS
     ========================== -->
-    <section id="certificados" aria-label="Certificados e Diplomas" class="reveal">
-      <h2 class="section-title"><span class="section-title__num">./</span> certificados</h2>
+    <section
+      id="certificados"
+      aria-label="Certificados e Diplomas"
+      class="reveal"
+    >
+
+      <h2 class="section-title">
+        <span class="section-title__num">./</span>
+        certificados
+      </h2>
+
       <div class="cert-grid">
 
-        <!-- CERTIFICADO 1: Grau Técnico -->
-        <div class="cert-card" onclick="abrirModal('Certificado Grau.jpg')">
+        <div
+          class="cert-card"
+          onclick="abrirModal('Certificado Grau.jpg')"
+          role="button"
+          tabindex="0"
+          aria-label="Abrir certificado de Programador"
+          onkeydown="if(event.key==='Enter') abrirModal('Certificado Grau.jpg')"
+        >
+
           <div class="cert-card__icon">💻</div>
+
           <div class="cert-card__info">
-            <h3 class="cert-card__title">Programador</h3>
-            <p class="cert-card__org">Grau Profissionalizante</p>
+
+            <h3 class="cert-card__title">
+              Programador
+            </h3>
+
+            <p class="cert-card__org">
+              Grau Profissionalizante
+            </p>
+
           </div>
+
           <span class="cert-card__go">↗</span>
+
         </div>
 
-        <!-- CERTIFICADO 2: IA -->
-        <div class="cert-card" onclick="abrirModal('Certificado IA.png')">
+
+        <div
+          class="cert-card"
+          onclick="abrirModal('Certificado IA.png')"
+          role="button"
+          tabindex="0"
+          aria-label="Abrir certificado AI Code Experience"
+          onkeydown="if(event.key==='Enter') abrirModal('Certificado IA.png')"
+        >
+
           <div class="cert-card__icon">🤖</div>
+
           <div class="cert-card__info">
-            <h3 class="cert-card__title">AI Code Experience</h3>
-            <p class="cert-card__org">Academia das IAs</p>
+
+            <h3 class="cert-card__title">
+              AI Code Experience
+            </h3>
+
+            <p class="cert-card__org">
+              Academia das IAs
+            </p>
+
           </div>
+
           <span class="cert-card__go">↗</span>
+
         </div>
 
-        <!-- CERTIFICADO 3: Santander -->
-        <div class="cert-card" onclick="abrirModal('Certificado Santander.png')">
+
+        <div
+          class="cert-card"
+          onclick="abrirModal('Certificado Santander.png')"
+          role="button"
+          tabindex="0"
+          aria-label="Abrir certificado Python"
+          onkeydown="if(event.key==='Enter') abrirModal('Certificado Santander.png')"
+        >
+
           <div class="cert-card__icon">🐍</div>
+
           <div class="cert-card__info">
-            <h3 class="cert-card__title">Python</h3>
-            <p class="cert-card__org">Santander Open Academy</p>
+
+            <h3 class="cert-card__title">
+              Python
+            </h3>
+
+            <p class="cert-card__org">
+              Santander Open Academy
+            </p>
+
           </div>
+
           <span class="cert-card__go">↗</span>
+
         </div>
 
       </div>
+
     </section>
-    
+
+
     <!-- =========================
-           SOBRE MIM
+         SOBRE MIM
     ========================== -->
-    <section class="about reveal" aria-label="Sobre minha jornada">
-      <h2 class="section-title"><span class="section-title__num">./</span> sobre mim</h2>
+    <section
+      class="about reveal"
+      aria-label="Sobre minha jornada"
+    >
+
+      <h2 class="section-title">
+        <span class="section-title__num">./</span>
+        sobre mim
+      </h2>
+
       <div class="about__content">
-        <p>Sou estudante de Análise e Desenvolvimento de Sistemas e venho construindo minha trajetória na programação através de estudos, projetos práticos e desafios reais.</p>
-        <p>Atualmente tenho foco em Python e desenvolvimento Back-end, trabalhando com Flask, bancos de dados, APIs e integração entre sistemas.</p>
-        <p>Também venho explorando projetos de Inteligência Artificial, automação e análise de dados com Python, buscando ampliar minha experiência e transformar conhecimento em soluções práticas.</p>
-        <p>Meu objetivo é continuar evoluindo como desenvolvedor, transformar conhecimento em projetos práticos e conquistar novas oportunidades na área de tecnologia.</p>
+
+        <p>
+          Sou estudante de Análise e Desenvolvimento de Sistemas
+          e venho construindo minha trajetória na programação através
+          de estudos, projetos práticos e desafios reais.
+        </p>
+
+        <p>
+          Atualmente tenho foco em Python e desenvolvimento Back-end,
+          trabalhando com Flask, bancos de dados, APIs e integração entre sistemas.
+        </p>
+
+        <p>
+          Também venho explorando projetos de Inteligência Artificial,
+          automação e análise de dados com Python, buscando ampliar minha
+          experiência e transformar conhecimento em soluções práticas.
+        </p>
+
+        <p>
+          Meu objetivo é continuar evoluindo como desenvolvedor,
+          transformar conhecimento em projetos práticos e conquistar
+          novas oportunidades na área de tecnologia.
+        </p>
+
       </div>
+
     </section>
 
+
     <!-- =========================
-           CTA
+         CTA
     ========================== -->
-    <section class="cta reveal" id="contato" aria-label="Contato">
+    <section
+      class="cta reveal"
+      id="contato"
+      aria-label="Contato"
+    >
+
       <div class="cta__glow"></div>
-      <p class="cta__eyebrow">// vamos conversar</p>
-      <h2 class="cta__title">Construindo minha próxima oportunidade.</h2>
-      <p class="cta__text">Estou sempre buscando aprender, desenvolver novos projetos e evoluir profissionalmente na área de tecnologia.</p>
+
+      <p class="cta__eyebrow">
+        // vamos conversar
+      </p>
+
+      <h2 class="cta__title">
+        Construindo minha próxima oportunidade.
+      </h2>
+
+      <p class="cta__text">
+        Estou sempre buscando aprender, desenvolver novos projetos
+        e evoluir profissionalmente na área de tecnologia.
+      </p>
+
       <div class="cta__actions">
-        <a href="mailto:wanderfarias72@gmail.com" class="cta__button">Entre em contato →</a>
-        <a href="https://wa.me/5521999990000" target="_blank" rel="noopener" class="cta__button cta__button--outline">WhatsApp ↗</a>
+
+        <a
+          href="mailto:wanderfarias72@gmail.com"
+          class="cta__button"
+        >
+          Entre em contato →
+        </a>
+
+        <a
+          href="https://wa.me/5521999990000"
+          target="_blank"
+          rel="noopener"
+          class="cta__button cta__button--outline"
+        >
+          WhatsApp ↗
+        </a>
+
       </div>
+
     </section>
 
+
     <!-- =========================
-           RODAPÉ
+         RODAPÉ
     ========================== -->
     <footer class="footer">
-      <p class="footer__label">contato</p>
-      <a href="mailto:wanderfarias72@gmail.com" class="footer__mail">wanderfarias72@gmail.com</a>
-      <p class="footer__copy">© 2026 Wander Farias. Todos os direitos reservados.</p>
+
+      <p class="footer__label">
+        contato
+      </p>
+
+      <a
+        href="mailto:wanderfarias72@gmail.com"
+        class="footer__mail"
+      >
+        wanderfarias72@gmail.com
+      </a>
+
+      <p class="footer__copy">
+        © 2026 Wander Farias. Todos os direitos reservados.
+      </p>
+
     </footer>
 
   </main>
 
+
   <!-- =========================
-       MODAL (POP-UP)
+       MODAL
   ========================== -->
-  <div id="modal-certificado" class="modal" onclick="fecharModal(event)">
-    <span class="modal__close" onclick="fecharModal(event)">&times;</span>
-    <img id="modal-img" class="modal__content" src="" alt="Diploma">
+  <div
+    id="modal-certificado"
+    class="modal"
+    onclick="fecharModal(event)"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Visualização do certificado"
+  >
+
+    <button
+      class="modal__close"
+      onclick="fecharModal(event)"
+      aria-label="Fechar certificado"
+    >
+      &times;
+    </button>
+
+    <img
+      id="modal-img"
+      class="modal__content"
+      src=""
+      alt="Certificado"
+    >
+
   </div>
 
 
   <!-- =========================
-         JAVASCRIPT
+       JAVASCRIPT
   ========================== -->
   <script>
-    /* =========================
-       EFEITO DE DIGITAÇÃO
-    ========================== */
-    const texto = "Construo projetos, estudo tecnologia e evoluo todos os dias.";
-    const el = document.getElementById("typed");
+
+    /* EFEITO DE DIGITAÇÃO */
+
+    const texto =
+      "Construo projetos, estudo tecnologia e evoluo todos os dias.";
+
+    const el =
+      document.getElementById("typed");
+
     let i = 0;
 
     function digitar() {
+
       if (i <= texto.length) {
-        el.textContent = texto.slice(0, i);
+
+        el.textContent =
+          texto.slice(0, i);
+
         i++;
+
         setTimeout(digitar, 35);
       }
+
     }
+
     digitar();
 
-    /* =========================
-       ANIMAÇÃO AO ROLAR
-    ========================== */
-    const elementos = document.querySelectorAll(".reveal");
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("active");
-          observer.unobserve(entry.target);
+
+    /* ANIMAÇÃO AO ROLAR */
+
+    const elementos =
+      document.querySelectorAll(".reveal");
+
+    const observer =
+      new IntersectionObserver(
+        (entries) => {
+
+          entries.forEach((entry) => {
+
+            if (entry.isIntersecting) {
+
+              entry.target.classList.add("active");
+
+              observer.unobserve(entry.target);
+
+            }
+
+          });
+
+        },
+        {
+          threshold: 0.12
         }
-      });
-    }, { threshold: 0.12 });
+      );
 
-    elementos.forEach((elemento) => { observer.observe(elemento); });
+    elementos.forEach((elemento) => {
 
-    /* =========================
-       ANIMAÇÃO DOS CARDS
-    ========================== */
-    const cards = document.querySelectorAll(".file");
-    cards.forEach((card, index) => {
-      card.style.setProperty("--delay", `${index * 100}ms`);
+      observer.observe(elemento);
+
     });
 
-    /* =========================
-       ANO AUTOMÁTICO
-    ========================== */
-    const ano = new Date().getFullYear();
-    const copyright = document.querySelector(".footer__copy");
+
+    /* ANIMAÇÃO DOS CARDS */
+
+    const cards =
+      document.querySelectorAll(".file");
+
+    cards.forEach((card, index) => {
+
+      card.style.setProperty(
+        "--delay",
+        `${index * 100}ms`
+      );
+
+    });
+
+
+    /* ANO AUTOMÁTICO */
+
+    const ano =
+      new Date().getFullYear();
+
+    const copyright =
+      document.querySelector(".footer__copy");
+
     if (copyright) {
-      copyright.innerHTML = `© ${ano} Wander Farias. Todos os direitos reservados.`;
+
+      copyright.innerHTML =
+        `© ${ano} Wander Farias. Todos os direitos reservados.`;
+
     }
 
-    /* =========================
-       MODAL DE CERTIFICADOS
-    ========================== */
+
+    /* MODAL */
+
     function abrirModal(srcImagem) {
-      const modal = document.getElementById('modal-certificado');
-      const modalImg = document.getElementById('modal-img');
-      
-      modalImg.src = srcImagem;
-      modal.classList.add('show');
+
+      const modal =
+        document.getElementById("modal-certificado");
+
+      const modalImg =
+        document.getElementById("modal-img");
+
+      modalImg.src =
+        srcImagem;
+
+      modal.classList.add("show");
+
+      document.body.style.overflow =
+        "hidden";
+
     }
+
 
     function fecharModal(event) {
-      const modal = document.getElementById('modal-certificado');
-      const modalImg = document.getElementById('modal-img');
-      
-      if (event.target === modal || event.target.classList.contains('modal__close')) {
-        modal.classList.remove('show');
-        setTimeout(() => { modalImg.src = ''; }, 300);
+
+      const modal =
+        document.getElementById("modal-certificado");
+
+      const modalImg =
+        document.getElementById("modal-img");
+
+      if (
+        event.target === modal ||
+        event.target.classList.contains("modal__close")
+      ) {
+
+        modal.classList.remove("show");
+
+        document.body.style.overflow =
+          "";
+
+        setTimeout(() => {
+
+          modalImg.src = "";
+
+        }, 300);
+
       }
+
     }
+
+
+    /* FECHAR MODAL COM ESC */
+
+    document.addEventListener(
+      "keydown",
+      (event) => {
+
+        if (
+          event.key === "Escape"
+        ) {
+
+          const modal =
+            document.getElementById(
+              "modal-certificado"
+            );
+
+          if (
+            modal.classList.contains("show")
+          ) {
+
+            modal.classList.remove("show");
+
+            document.body.style.overflow =
+              "";
+
+            document.getElementById(
+              "modal-img"
+            ).src = "";
+
+          }
+
+        }
+
+      }
+    );
+
   </script>
 
 </body>
