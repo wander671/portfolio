@@ -19,18 +19,20 @@ O projeto possui uma interface moderna, responsiva e inspirada em ambientes de d
 
 ### ✨ Destaques
 
-- 🎨 Interface moderna e responsiva
-- 💻 Design inspirado em terminal
-- 🐍 Destaque para Python
-- 📂 Organização dos principais projetos
-- 🎓 Formação e certificados
-- 🔗 Links para GitHub, LinkedIn e Instagram
-- 📱 Responsividade para dispositivos móveis
-- ✨ Animações e efeitos visuais
-- 🎥 Animação 3D personalizada no Hero
-- 🖼️ Modal para visualização dos certificados
-- ⌨️ Efeito de digitação
-- 🔄 Animações durante a navegação
+* 🎨 Interface moderna e responsiva
+* 💻 Design inspirado em terminal
+* 🐍 Destaque para Python
+* 📂 Organização dos principais projetos
+* 🎓 Formação e certificados
+* 🔗 Links para GitHub, LinkedIn e Instagram
+* 📱 Responsividade para dispositivos móveis
+* ✨ Animações e efeitos visuais
+* 🎥 Vídeo de fundo personalizado no Hero
+* 🖼️ Foto de perfil com efeito visual
+* 📜 Modal para visualização dos certificados
+* ⌨️ Efeito de digitação
+* 🔄 Animações durante a navegação
+* 🌐 Publicação através do GitHub Pages
 
 ---
 
@@ -38,29 +40,29 @@ O projeto possui uma interface moderna, responsiva e inspirada em ambientes de d
 
 ### Front-end
 
-- HTML5
-- CSS3
-- JavaScript
+* HTML5
+* CSS3
+* JavaScript
 
 ### Desenvolvimento
 
-- Python
-- Flask
-- SQL
-- SQLite
-- APIs REST
-- Pandas
-- Git
-- GitHub
+* Python
+* Flask
+* SQL
+* SQLite
+* APIs REST
+* Pandas
+* Git
+* GitHub
 
 ### Ferramentas e conceitos
 
-- Tabulator
-- PyAutoGUI
-- Automação
-- Inteligência Artificial
-- Responsividade
-- GitHub Pages
+* Tabulator
+* PyAutoGUI
+* Automação
+* Inteligência Artificial
+* Responsividade
+* GitHub Pages
 
 ---
 
@@ -144,9 +146,9 @@ Formação em desenvolvimento web com HTML, CSS, JavaScript e fundamentos de pro
 
 Entre os certificados e formações apresentados no portfólio estão:
 
-- 💻 Programador — Grau Profissionalizante
-- 🤖 AI Code Experience — Academia das IAs
-- 🐍 Python — Santander Open Academy
+* 💻 Programador — Grau Profissionalizante
+* 🤖 AI Code Experience — Academia das IAs
+* 🐍 Python — Santander Open Academy
 
 ---
 
@@ -156,13 +158,13 @@ Meu objetivo é continuar evoluindo na área de tecnologia através de estudos, 
 
 Atualmente, meus principais interesses estão em:
 
-- 🐍 Python
-- ⚙️ Desenvolvimento Back-end
-- 🗄️ Bancos de dados
-- 🔌 APIs REST
-- 🤖 Inteligência Artificial
-- 📊 Análise de dados
-- 🚀 Desenvolvimento de projetos reais
+* 🐍 Python
+* ⚙️ Desenvolvimento Back-end
+* 🗄️ Bancos de dados
+* 🔌 APIs REST
+* 🤖 Inteligência Artificial
+* 📊 Análise de dados
+* 🚀 Desenvolvimento de projetos reais
 
 ---
 
@@ -184,7 +186,7 @@ https://github.com/wander671
 
 📧 **E-mail**
 
-wanderfarias72@gmail.com
+[wanderfarias72@gmail.com](mailto:wanderfarias72@gmail.com)
 
 ---
 

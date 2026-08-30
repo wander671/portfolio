@@ -366,8 +366,76 @@ video {
   position: relative;
 
   padding: 55px;
+
+  overflow: hidden;
+
+  min-height: 560px;
+
+.terminal__body > .avatar-wrapper,
+.terminal__body > .terminal__line,
+.terminal__body > .terminal__out,
+.terminal__body > .badges,
+.terminal__body > .hero-actions {
+  position: relative;
+
+  z-index: 2;
+
+  max-width: 58%;
+}
 }
 
+/* =========================================
+   VÍDEO DE FUNDO — LADO DIREITO
+========================================= */
+
+.hero-video-bg {
+  position: absolute;
+
+  top: 50%;
+  right: -40px;
+
+  width: 48%;
+  height: 90%;
+
+  transform: translateY(-50%);
+
+  object-fit: contain;
+
+  z-index: 0;
+
+  opacity: 0.55;
+
+  pointer-events: none;
+}
+
+
+
+/* CONTEÚDO DO HERO */
+
+.terminal__body > *:not(.hero-video-bg):not(.hero-video-overlay) {
+  position: relative;
+
+  z-index: 2;
+}
+
+.hero-video-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 1;
+
+  pointer-events: none;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(8, 9, 12, 0.96) 0%,
+      rgba(8, 9, 12, 0.72) 38%,
+      rgba(8, 9, 12, 0.18) 75%,
+      rgba(8, 9, 12, 0.05) 100%
+    );
+}
 
 /* =========================================
    FOTO
@@ -629,66 +697,6 @@ video {
   border-color: var(--accent-light);
 
   transform: translateY(-3px);
-}
-
-
-/* =========================================
-   ANIMAÇÃO 3D
-========================================= */
-
-.hero-animation-wrapper {
-  width: 100%;
-
-  margin-top: 40px;
-
-  display: flex;
-
-  justify-content: center;
-
-  align-items: center;
-}
-
-.real-dev-img {
-  width: 100%;
-
-  max-width: 340px;
-
-  height: auto;
-
-  border-radius: var(--radius);
-
-  border:
-    1px solid rgba(124, 58, 237, 0.3);
-
-  box-shadow:
-    0 20px 40px rgba(0, 0, 0, 0.4),
-    0 0 20px rgba(124, 58, 237, 0.15);
-
-  object-fit: cover;
-
-  animation:
-    floatRealDev 4s ease-in-out infinite;
-
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-.real-dev-img:hover {
-  box-shadow:
-    0 25px 50px rgba(0, 0, 0, 0.5),
-    0 0 30px rgba(124, 58, 237, 0.25);
-}
-
-@keyframes floatRealDev {
-  0%,
-  100% {
-    transform: translateY(0) scale(1);
-  }
-
-  50% {
-    transform: translateY(-8px) scale(1.02);
-  }
 }
 
 
@@ -1637,13 +1645,23 @@ section:not(.terminal) {
   .cta {
     padding: 45px 25px;
   }
-
-  .real-dev-img {
-    max-width: 300px;
-  }
-
 }
 
+.hero-video-bg {
+  right: -30px;
+
+  width: 55%;
+
+  opacity: 0.55;
+}
+
+.terminal__body > .avatar-wrapper,
+.terminal__body > .terminal__line,
+.terminal__body > .terminal__out,
+.terminal__body > .badges,
+.terminal__body > .hero-actions {
+  max-width: 100%;
+}
 
 /* =========================================
    RESPONSIVIDADE — CELULAR PEQUENO
@@ -1694,12 +1712,6 @@ section:not(.terminal) {
     justify-content: center;
   }
 
-  .hero-animation-wrapper {
-    margin-top: 35px;
-  }
-
-  .real-dev-img {
-    max-width: 260px;
   }
 
   .rede {
@@ -1757,8 +1769,6 @@ section:not(.terminal) {
     top: 15px;
     right: 15px;
   }
-
-}
 
 
 /* =========================================
