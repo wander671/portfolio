@@ -1562,45 +1562,25 @@ FOOTER
 }
 
 /* =========================================
-RESPONSIVIDADE — TABLET
+RESPONSIVIDADE — TABLET & CELULAR
 ========================================= */
 
 @media (max-width: 900px) {
-
   .nav__links {
     gap: 14px;
-
     font-size: 0.78rem;
   }
-
-  .nav__links a:nth-child(4),
-  .nav__links a:nth-child(5) {
-    display: none;
-  }
-
 }
 
-/* =========================================
-RESPONSIVIDADE — CELULAR
-========================================= */
-
 @media (max-width: 768px) {
-
   .nav {
     width: min(100% - 30px, 1000px);
-
     padding: 20px 0;
   }
 
   .nav__links {
-    gap: 10px;
-
+    gap: 12px;
     font-size: 0.75rem;
-  }
-
-  .nav__links a:nth-child(2),
-  .nav__links a:nth-child(3) {
-    display: none;
   }
 
   .container {
@@ -1613,19 +1593,38 @@ RESPONSIVIDADE — CELULAR
 
   .terminal__body {
     padding: 35px 25px;
+    min-height: auto;
+  }
 
-    min-height: 520px;
+  .terminal__body > .avatar-wrapper,
+  .terminal__body > .terminal__line,
+  .terminal__body > .terminal__out,
+  .terminal__body > .terminal__out--muted,
+  .terminal__body > .badges,
+  .terminal__body > .hero-actions {
+    max-width: 100% !important;
   }
 
   .terminal__out {
-    font-size:
-      clamp(2.5rem, 13vw, 4rem);
-
+    font-size: clamp(2.2rem, 10vw, 3.5rem);
     letter-spacing: -2px;
   }
 
   .terminal__out--muted {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+  }
+
+  .hero-video-bg {
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.15;
+  }
+
+  .hero-video-overlay {
+    background: rgba(8, 9, 12, 0.92);
   }
 
   .redes {
@@ -1638,7 +1637,6 @@ RESPONSIVIDADE — CELULAR
 
   .file {
     grid-template-columns: auto 1fr;
-
     gap: 14px;
   }
 
@@ -1653,52 +1651,24 @@ RESPONSIVIDADE — CELULAR
   .cta {
     padding: 45px 25px;
   }
-
-  .hero-video-bg {
-    right: -80px;
-
-    width: 70%;
-    height: 100%;
-
-    opacity: 0.30;
-  }
-
-  .terminal__body > .avatar-wrapper,
-  .terminal__body > .terminal__line,
-  .terminal__body > .terminal__out,
-  .terminal__body > .badges,
-  .terminal__body > .hero-actions {
-    max-width: 100%;
-  }
-
 }
 
-/* =========================================
-RESPONSIVIDADE — CELULAR PEQUENO
-========================================= */
-
 @media (max-width: 480px) {
-
   .nav__brand {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
   }
 
   .nav__links {
-    gap: 7px;
-  }
-
-  .nav__links a:first-child {
-    display: none;
+    gap: 8px;
+    font-size: 0.7rem;
   }
 
   .nav__cta {
-    padding: 7px 12px;
+    padding: 6px 10px;
   }
 
   .terminal__body {
-    padding: 30px 20px;
-
-    min-height: 500px;
+    padding: 25px 18px;
   }
 
   .avatar-wrapper,
@@ -1710,13 +1680,11 @@ RESPONSIVIDADE — CELULAR PEQUENO
 
   .badges {
     flex-direction: column;
-
-    align-items: flex-start;
+    align-items: stretch;
   }
 
   .hero-actions {
     flex-direction: column;
-
     align-items: stretch;
   }
 
@@ -1724,9 +1692,12 @@ RESPONSIVIDADE — CELULAR PEQUENO
     justify-content: center;
   }
 
-  .rede {
-    width: 100%;
+  .redes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
+  .rede {
     justify-content: center;
   }
 
@@ -1736,26 +1707,16 @@ RESPONSIVIDADE — CELULAR PEQUENO
 
   .file__top {
     align-items: flex-start;
-
     flex-direction: column;
-
     gap: 5px;
-  }
-
-  .formation__item {
-    padding: 18px;
   }
 
   .cert-grid {
     grid-template-columns: 1fr;
   }
 
-  .cert-card {
-    padding: 18px;
-  }
-
   .cta__title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .cta__actions {
@@ -1765,30 +1726,6 @@ RESPONSIVIDADE — CELULAR PEQUENO
   .cta__button {
     width: 100%;
   }
-
-  .modal {
-    padding: 20px;
-  }
-
-  .modal__content {
-    max-width: 95%;
-    max-height: 80vh;
-  }
-
-  .modal__close {
-    top: 15px;
-    right: 15px;
-  }
-
-  .hero-video-bg {
-    right: -100px;
-
-    width: 80%;
-    height: 95%;
-
-    opacity: 0.22;
-  }
-
 }
 
 /* =========================================
@@ -1796,7 +1733,6 @@ ACESSIBILIDADE
 ========================================= */
 
 @media (prefers-reduced-motion: reduce) {
-
   html {
     scroll-behavior: auto;
   }
@@ -1805,18 +1741,13 @@ ACESSIBILIDADE
   *::before,
   *::after {
     animation-duration: 0.01ms !important;
-
     animation-iteration-count: 1 !important;
-
     transition-duration: 0.01ms !important;
-
     scroll-behavior: auto !important;
   }
 
   .reveal {
     opacity: 1;
-
     transform: none;
   }
-
 }
