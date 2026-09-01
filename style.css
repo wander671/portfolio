@@ -1,5 +1,6 @@
+
 /* =========================================
-RESET
+   RESET
 ========================================= */
 
 * {
@@ -41,7 +42,7 @@ video {
 }
 
 /* =========================================
-VARIÁVEIS
+   VARIÁVEIS
 ========================================= */
 
 :root {
@@ -66,7 +67,7 @@ VARIÁVEIS
 }
 
 /* =========================================
-FUNDO
+   FUNDO
 ========================================= */
 
 .background-glow {
@@ -115,7 +116,7 @@ FUNDO
 }
 
 /* =========================================
-NAVEGAÇÃO
+   NAVEGAÇÃO
 ========================================= */
 
 .nav {
@@ -230,7 +231,7 @@ NAVEGAÇÃO
 }
 
 /* =========================================
-CONTAINER
+   CONTAINER
 ========================================= */
 
 .container {
@@ -240,7 +241,7 @@ CONTAINER
 }
 
 /* =========================================
-REVEAL
+   REVEAL
 ========================================= */
 
 .reveal {
@@ -260,7 +261,7 @@ REVEAL
 }
 
 /* =========================================
-HERO / TERMINAL
+   HERO / TERMINAL
 ========================================= */
 
 .terminal {
@@ -271,7 +272,11 @@ HERO / TERMINAL
   overflow: hidden;
 
   background:
-    url("SUA-IMAGEM-AQUI.jpg");
+    linear-gradient(
+      135deg,
+      rgba(124, 58, 237, 0.08),
+      rgba(8, 9, 12, 0.95)
+    );
 
   background-size: cover;
   background-position: center;
@@ -359,7 +364,7 @@ HERO / TERMINAL
 }
 
 /* =========================================
-CORPO DO HERO
+   CORPO DO HERO
 ========================================= */
 
 .terminal__body {
@@ -391,7 +396,7 @@ CORPO DO HERO
 }
 
 /* =========================================
-VÍDEO DO PERSONAGEM
+   VÍDEO DO PERSONAGEM
 ========================================= */
 
 .hero-video-bg {
@@ -421,7 +426,7 @@ VÍDEO DO PERSONAGEM
 }
 
 /* =========================================
-CONTEÚDO SOBRE O VÍDEO
+   CONTEÚDO SOBRE O VÍDEO
 ========================================= */
 
 .terminal__body > *:not(.hero-video-bg):not(.hero-video-overlay) {
@@ -452,7 +457,7 @@ CONTEÚDO SOBRE O VÍDEO
 }
 
 /* =========================================
-FOTO
+   FOTO
 ========================================= */
 
 .avatar-wrapper {
@@ -538,7 +543,7 @@ FOTO
 }
 
 /* =========================================
-TEXTO HERO
+   TEXTO HERO
 ========================================= */
 
 .terminal__line {
@@ -604,7 +609,7 @@ TEXTO HERO
 }
 
 /* =========================================
-BADGES
+   BADGES
 ========================================= */
 
 .badges {
@@ -650,7 +655,7 @@ BADGES
 }
 
 /* =========================================
-HERO BUTTONS
+   HERO BUTTONS
 ========================================= */
 
 .hero-actions {
@@ -714,7 +719,7 @@ HERO BUTTONS
 }
 
 /* =========================================
-REDES SOCIAIS
+   REDES SOCIAIS
 ========================================= */
 
 .redes {
@@ -765,7 +770,7 @@ REDES SOCIAIS
 }
 
 /* =========================================
-SEÇÕES
+   SEÇÕES
 ========================================= */
 
 section:not(.terminal) {
@@ -795,7 +800,7 @@ section:not(.terminal) {
 }
 
 /* =========================================
-HABILIDADES
+   HABILIDADES
 ========================================= */
 
 .skills {
@@ -841,7 +846,7 @@ HABILIDADES
 }
 
 /* =========================================
-PROJETOS
+   PROJETOS
 ========================================= */
 
 .filetree {
@@ -1055,7 +1060,7 @@ PROJETOS
 }
 
 /* =========================================
-FORMAÇÃO
+   FORMAÇÃO
 ========================================= */
 
 .formation {
@@ -1126,7 +1131,7 @@ FORMAÇÃO
 }
 
 /* =========================================
-CERTIFICADOS
+   CERTIFICADOS
 ========================================= */
 
 .cert-grid {
@@ -1250,7 +1255,7 @@ CERTIFICADOS
 }
 
 /* =========================================
-MODAL
+   MODAL
 ========================================= */
 
 .modal {
@@ -1345,7 +1350,7 @@ MODAL
 }
 
 /* =========================================
-SOBRE MIM
+   SOBRE MIM
 ========================================= */
 
 .about__content {
@@ -1367,7 +1372,7 @@ SOBRE MIM
 }
 
 /* =========================================
-CTA
+   CTA
 ========================================= */
 
 .cta {
@@ -1471,6 +1476,7 @@ CTA
   display: inline-flex;
 
   align-items: center;
+
   justify-content: center;
 
   padding: 12px 20px;
@@ -1514,7 +1520,7 @@ CTA
 }
 
 /* =========================================
-FOOTER
+   FOOTER
 ========================================= */
 
 .footer {
@@ -1562,24 +1568,31 @@ FOOTER
 }
 
 /* =========================================
-RESPONSIVIDADE — TABLET & CELULAR
+   RESPONSIVIDADE — TABLET
 ========================================= */
 
 @media (max-width: 900px) {
   .nav__links {
     gap: 14px;
+
     font-size: 0.78rem;
   }
 }
 
+/* =========================================
+   RESPONSIVIDADE — CELULAR
+========================================= */
+
 @media (max-width: 768px) {
   .nav {
     width: min(100% - 30px, 1000px);
+
     padding: 20px 0;
   }
 
   .nav__links {
     gap: 12px;
+
     font-size: 0.75rem;
   }
 
@@ -1593,7 +1606,8 @@ RESPONSIVIDADE — TABLET & CELULAR
 
   .terminal__body {
     padding: 35px 25px;
-    min-height: auto;
+
+    min-height: 560px;
   }
 
   .terminal__body > .avatar-wrapper,
@@ -1607,6 +1621,7 @@ RESPONSIVIDADE — TABLET & CELULAR
 
   .terminal__out {
     font-size: clamp(2.2rem, 10vw, 3.5rem);
+
     letter-spacing: -2px;
   }
 
@@ -1614,17 +1629,40 @@ RESPONSIVIDADE — TABLET & CELULAR
     font-size: 0.95rem;
   }
 
+  /*
+    CORREÇÃO PRINCIPAL:
+    O vídeo continua visível no celular.
+  */
+
   .hero-video-bg {
     right: 0;
     left: 0;
+
     width: 100%;
     height: 100%;
+
     object-fit: cover;
-    opacity: 0.15;
+
+    opacity: 0.30;
+
+    transform: none;
+
+    top: 0;
   }
 
+  /*
+    Overlay mais transparente para
+    não esconder o personagem.
+  */
+
   .hero-video-overlay {
-    background: rgba(8, 9, 12, 0.92);
+    background:
+      linear-gradient(
+        90deg,
+        rgba(8, 9, 12, 0.82) 0%,
+        rgba(8, 9, 12, 0.65) 45%,
+        rgba(8, 9, 12, 0.35) 100%
+      );
   }
 
   .redes {
@@ -1637,6 +1675,7 @@ RESPONSIVIDADE — TABLET & CELULAR
 
   .file {
     grid-template-columns: auto 1fr;
+
     gap: 14px;
   }
 
@@ -1653,6 +1692,10 @@ RESPONSIVIDADE — TABLET & CELULAR
   }
 }
 
+/* =========================================
+   CELULARES PEQUENOS
+========================================= */
+
 @media (max-width: 480px) {
   .nav__brand {
     font-size: 1.1rem;
@@ -1660,6 +1703,7 @@ RESPONSIVIDADE — TABLET & CELULAR
 
   .nav__links {
     gap: 8px;
+
     font-size: 0.7rem;
   }
 
@@ -1669,22 +1713,41 @@ RESPONSIVIDADE — TABLET & CELULAR
 
   .terminal__body {
     padding: 25px 18px;
+
+    min-height: 560px;
+  }
+
+  .hero-video-bg {
+    opacity: 0.28;
+  }
+
+  .hero-video-overlay {
+    background:
+      linear-gradient(
+        90deg,
+        rgba(8, 9, 12, 0.78) 0%,
+        rgba(8, 9, 12, 0.58) 50%,
+        rgba(8, 9, 12, 0.30) 100%
+      );
   }
 
   .avatar-wrapper,
   .avatar-img,
   .avatar-fallback {
     width: 80px;
+
     height: 80px;
   }
 
   .badges {
     flex-direction: column;
+
     align-items: stretch;
   }
 
   .hero-actions {
     flex-direction: column;
+
     align-items: stretch;
   }
 
@@ -1694,6 +1757,7 @@ RESPONSIVIDADE — TABLET & CELULAR
 
   .redes {
     display: grid;
+
     grid-template-columns: 1fr 1fr;
   }
 
@@ -1707,7 +1771,9 @@ RESPONSIVIDADE — TABLET & CELULAR
 
   .file__top {
     align-items: flex-start;
+
     flex-direction: column;
+
     gap: 5px;
   }
 
@@ -1729,7 +1795,7 @@ RESPONSIVIDADE — TABLET & CELULAR
 }
 
 /* =========================================
-ACESSIBILIDADE
+   ACESSIBILIDADE
 ========================================= */
 
 @media (prefers-reduced-motion: reduce) {
@@ -1741,13 +1807,18 @@ ACESSIBILIDADE
   *::before,
   *::after {
     animation-duration: 0.01ms !important;
+
     animation-iteration-count: 1 !important;
+
     transition-duration: 0.01ms !important;
+
     scroll-behavior: auto !important;
   }
 
   .reveal {
     opacity: 1;
+
     transform: none;
   }
 }
+
